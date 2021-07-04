@@ -1,0 +1,21 @@
+installation:
+python -m venv myvenv
+venv\Scripts\activate
+pip install django
+django-admin.exe startproject boardfe ./django
+django-admin startapp asd ./src
+
+python manage.py makemigrations
+python manage.py migrate
+
+pip install djangorestframework
+
+python manage.py runserver
+
+
+for mongodb
+pip install mongoengine
+pip install dnspython
+
+https://www.mongodb.com/compatibility/mongodb-and-django
+
